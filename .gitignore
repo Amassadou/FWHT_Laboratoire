@@ -1,0 +1,21 @@
+# Environnement Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jeux de données
+dataset/
+
+# Résultats expérimentaux
+reports/
+
+# Fichiers temporaires
+*.log
+.ipynb_checkpoints/
+.DS_Store
+
+# Secrets
+.env
+.env.*
+!.env.example
